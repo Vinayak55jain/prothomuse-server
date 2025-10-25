@@ -1,4 +1,4 @@
-module github.com/vinayak55jain/prothomuse-health-go
+module github.com/vinayak55jain/prothomuse-server
 
 go 1.23.0
 
