@@ -14,7 +14,7 @@ type MetricData struct {
     Method       string    `json:"method"`
     StatusCode   int       `json:"statusCode"`
     ResponseTime int64     `json:"responseTime"` // milliseconds
-    Timestamp    time.Time `json:"timestamp"`
+    Timestamp    int64 `json:"timestamp"`
 }
 
 type Client struct {
